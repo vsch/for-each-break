@@ -10,7 +10,7 @@ const BREAK = (function () {
     };
 
     // used for nested each and eachProp housekeeping
-    // clear default and return previous state
+    // clear or set default return value and return previous state
     Break.clearDefault = function clearDefault(defaultReturn) {
         const returned = BREAK.returned;
         BREAK.returned = defaultReturn;
