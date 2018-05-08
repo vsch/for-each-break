@@ -11,7 +11,7 @@ test('map no break', () => {
     const values = [];
     const thisArg = [1, 2, 3, 4, 5];
     const result = map.call(thisArg, (value, index, array) => {
-        values.push({ value: value, index: index, array: array })
+        values.push({ value: value, index: index, array: array });
         return 10 - value;
     });
 

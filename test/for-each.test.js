@@ -11,7 +11,7 @@ test('forEach no break', () => {
     const values = [];
     const thisArg = [1, 2, 3, 4, 5];
     const result = forEach.call(thisArg, (value, index, array) => {
-        values.push({ value: value, index: index, array: array })
+        values.push({ value: value, index: index, array: array });
     });
     expect(values).toEqual([
         { value: 1, index: 0, array: thisArg },
@@ -62,7 +62,7 @@ test('forEach no break, default return', () => {
     const values = [];
     const thisArg = [1, 2, 3, 4, 5];
     const result = forEach.call(thisArg, (value, index, array) => {
-        values.push({ value: value, index: index, array: array })
+        values.push({ value: value, index: index, array: array });
     }, 100);
 
     expect(values).toEqual([
