@@ -1,0 +1,31 @@
+{
+  "name": "for-each-break",
+  "version": "0.1.0",
+  "description": "forEach, map and filter with break and return emulation",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Vladimir Schneider",
+    "email": "vladimir.schneider@gmail.com",
+    "url": "https://github.com/vsch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "looping",
+    "breakable loop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vsch/for-each-break.git"
+  },
+  "homepage": "https://github.com/vsch/for-each-break",
+  "bugs": {
+    "url": "https://github.com/vsch/for-each-break/issues"
+  }
+}
