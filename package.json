@@ -1,6 +1,6 @@
 {
   "name": "for-each-break",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "forEach, map and filter with break and return emulation",
   "main": "index.js",
   "license": "MIT",
