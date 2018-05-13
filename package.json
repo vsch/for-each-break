@@ -9,7 +9,9 @@
     "email": "vladimir.schneider@gmail.com",
     "url": "https://github.com/vsch"
   },
-  "dependencies": {},
+  "dependencies": {
+
+  },
   "devDependencies": {
     "jest": "^22.4.3"
   },

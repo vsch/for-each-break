@@ -16,16 +16,14 @@ defines:
 
 <!-- @formatter:off -->
 
-* `BREAK` - used to break or return from loop, using `BREAK` to break out of loop is preferred
-  since it communicates clear intention
-* `RETURN` - used to break or return from loop, using `RETURN` to break out of loop and return a
-  value is preferred since it communicates clear intention
+* `BREAK` - used to break or return from loop, using `BREAK` to break out of loop is preferred since it communicates clear intention
+* `RETURN` - used to break or return from loop, using `RETURN` to break out of loop and return a value is preferred since it communicates clear intention
+* `filter` - use to filter array like object, with early break or return: `filter.call(arrayLike, callback, thisArg)`
 * `forEach` - use to loop over array like object: `forEach.call(arrayLike, callback, thisArg, defaultReturn)`
 * `map` - use to map array like object, with early break or return: `map.call(arrayLike, callback, thisArg)`
-* `filter` - use to filter array like object, with early break or return: `filter.call(arrayLike, callback, thisArg)`
+* `filterRight` - use to filter array like object in reverse, with early break or return: `filter.call(arrayLike, callback, thisArg)`
 * `forEachRight` - use to loop over array like object in reverse: `forEach.call(arrayLike, callback, thisArg, defaultReturn)`
 * `mapRight` - use to map array like object in reverse, with early break or return: `map.call(arrayLike, callback, thisArg)`
-* `filterRight` - use to filter array like object in reverse, with early break or return: `filter.call(arrayLike, callback, thisArg)`
 
 <!-- @formatter:on -->
 
