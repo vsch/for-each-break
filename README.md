@@ -1,6 +1,6 @@
 # for-each-break
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![experimental](https://badges.github.io/stability-badges/dist/experimental.svg)](https://github.com/badges/stability-badges)
 
 Small utility library implementing `forEach`, `map`, `filter`, `forEachRight`, `mapRight` and
 `filterRight` functions with break and return emulation as if it was a regular `for` or `while`
@@ -41,5 +41,6 @@ npm install for-each-break --save
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/vsch/for-each-break/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](https://github.com/vsch/for-each-break/blob/master/LICENSE.md) for
+details.
 
