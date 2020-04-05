@@ -1,6 +1,6 @@
 {
   "name": "for-each-break",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "description": "forEach, map and filter with break and return emulation",
   "main": "index.js",
   "license": "MIT",
@@ -11,7 +11,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^25.2.6",
+    "jest-each": "^25.2.6"
   },
   "scripts": {
     "test": "jest"
